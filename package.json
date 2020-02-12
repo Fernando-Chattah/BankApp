@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/app.js"
   },
   "author": "Fernando Chattah",
   "license": "ISC",
@@ -13,7 +13,12 @@
     "json": "^9.0.6",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.8.11",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
     "token": "^0.1.0",
     "web": "0.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
