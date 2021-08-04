@@ -4,6 +4,6 @@ const express = require("express");
 app.use(express.json);
 
 //para enviar datos a un formulario
-app.use(express.urlencoded({extended: false}));
+app.use(express.urlencoded({extended: true}));
 
 module.export = app;
